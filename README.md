@@ -34,4 +34,24 @@ A composição foi gerada utilizando **três bibliotecas principais**:
   Distribuição dos elementos em um grid para um visual organizado e balanceado.
 
 ---
+## **Como Funciona**
 
+### **Criação da Figura:**
+  A figura é criada com `plt.subplots()`, definindo o tamanho e os eixos onde os elementos serão desenhados.
+
+### **Fundo com Gradiente:**
+  Um gradiente é gerado com `np.linspace` e `np.vstack`, e exibido utilizando `ax.imshow()` com transparência ajustada.
+
+### **Desenho das Formas:**
+  São desenhados dois **círculos** e um **retângulo** com cores predefinidas, utilizando `plt.Circle` e `plt.Rectangle`.
+
+### **Inserção de Texto:**
+  O **título** e a **tagline** são adicionados com `ax.text()`, utilizando caixas de fundo para melhor visibilidade.
+
+### **Disposição das Hashtags:**
+  As **hashtags** são organizadas em um grid uniforme, calculado a partir do número total de tags e do espaçamento definido para os eixos, garantindo uma disposição equilibrada.
+
+### **Exibição e Salvamento:**
+  A imagem final é ajustada com `plt.tight_layout()`, salva em um arquivo (**"minha_imagem.png"**) e exibida com `plt.show()`.
+
+---
