@@ -55,3 +55,16 @@ A composição foi gerada utilizando **três bibliotecas principais**:
   A imagem final é ajustada com `plt.tight_layout()`, salva em um arquivo (**"minha_imagem.png"**) e exibida com `plt.show()`.
 
 ---
+## **Como Executar**
+
+Certifique-se de ter as bibliotecas necessárias instaladas:
+```bash
+pip install matplotlib numpy
+
+Em seguida, execute o script:
+```bash
+python seu_script.py
+
+## **Exemplo de Saída**
+
+![Exemplo de Saída](minha_imagem.png)
