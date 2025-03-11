@@ -58,12 +58,12 @@ A composição foi gerada utilizando **três bibliotecas principais**:
 ## **Como Executar**
 
   Certifique-se de ter as bibliotecas necessárias instaladas:
-    ```bash
-    pip install matplotlib numpy
+  
+      pip install matplotlib numpy
 
   Em seguida, execute o script:
-    ```bash
-    python seu_script.py
+  
+      python seu_script.py
 
 ## **Exemplo de Saída**
 
