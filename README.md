@@ -16,3 +16,22 @@ A composição foi gerada utilizando **três bibliotecas principais**:
 
 - **Random:**  
   Empregada para gerar valores aleatórios que definem posições e cores dos elementos (como os círculos com hashtags), garantindo variações visuais interessantes.
+
+---
+
+## **Funcionalidades**
+
+### **Fundo com Gradiente:**
+  Um fundo suave criado a partir de uma matriz numérica, que utiliza o colormap **'viridis'** para um efeito visual moderno.
+
+### **Elementos Artísticos:**
+  Formas geométricas (**círculos** e **retângulos**) com cores e transparências definidas para adicionar um toque de design à composição.
+
+### **Textos e Hashtags:**
+  Inclusão de um **título**, uma **tagline** e uma série de **hashtags** (que abrangem temas como **tecnologia**, **linguagens de programação** e outras tecnologias) organizadas de maneira uniforme em um grid.
+
+### **Layout Profissional:**
+  Distribuição dos elementos em um grid para um visual organizado e balanceado.
+
+---
+
